@@ -1,0 +1,56 @@
+.addButton{
+    background-color:blue;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.deleteButton {
+    background-color: red; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.mainRow {
+    margin: 0 -5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainColumn {
+    float: left;
+    width: 50%;
+    padding: 0 10px;
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .mainColumn {
+      width: auto;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+  .mainCard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    margin-bottom: 10px;
+    border-radius: 10%;
+  }
+  
+ .deleteX {
+    display: flex;
+    justify-content: end;
+ }

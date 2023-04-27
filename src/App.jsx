@@ -1,11 +1,13 @@
-import TimerList from "./TimerList";
-import "./App.css";
+import './App.css'
+import TimerList from './TimerList/TimerList'
+
 function App() {
+
   return (
     <>
       <TimerList />
     </>
-  );
+  )
 }
 
-export default App;
+export default App
